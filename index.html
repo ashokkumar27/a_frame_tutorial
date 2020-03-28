@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello My First VR!</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity environment="preset: japan"></a-entity>
+      <a-dodecahedron position="0.75 1 -5" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000" height="4" color="#D4AF37" radius="1" shadow></a-dodecahedron>
+    </a-scene>
+  </body>
+</html>
